@@ -1,0 +1,109 @@
+body {
+	margin: 0;
+}
+
+@font-face {
+	font-family: 'akzidenzgrotesk';
+	src: url('akzidenz-grotesk-black.woff') format('woff'),
+
+	font-weight: normal;
+	font-style: normal;
+
+}
+#par1{font-size: 20px;
+font-family: akzidenzgrotesk;
+color: white;
+margin-right: 15px;
+margin-left: 15px;}
+
+.class1 {
+	position: sticky;
+	top: 0%;
+	font-size: 100px;
+	font-family: akzidenzgrotesk;
+	float: middle;
+	width: 100%;
+	height: 100px;
+	background-color: white;
+
+}
+
+span{
+	color: #c03827;
+
+}
+#interpolantics {
+	text-wrap: left;
+	height: 85px;}
+.class2{font-size: 35px;
+	font-family: akzidenzgrotesk;
+	float: middle;}
+span2{color: #c03827;}
+span3{font-size: 25px;}
+.class2{background-color: black;
+top: 100%;}
+body{background-color: black;}
+#totbl{max-height: 700px;}
+#antics{max-height: 700px;}
+ #guess{text-align: center;
+ 	font-size: 120px;
+ 	font-family: akzidenzgrotesk;
+ 	color: white;}
+     .container {
+            display: flex;
+            border: 2px solid black;
+        }
+ 
+        .box {
+            flex: 1;
+            margin: 15px;
+            padding: 40px;
+          	
+            font-family: akzidenzgrotesk;
+            color: #c03827;
+            font-size: 60px;
+            text-align: center;
+            background-color: white;
+        }
+        .box2 {
+        		flex: 1;
+            margin: 15px;
+            padding: 40px;
+          
+            font-family: akzidenzgrotesk;
+            color: white;
+            font-size: 60px;
+            text-align: center;
+            justify-content: center;
+            
+        }
+          .box3 {
+        		flex: 1;
+            margin: 15px;
+            padding: 40px;
+            width: 300px;
+         	height:200px;
+            font-family: sans-serif;
+            color: #c03827;
+            font-size: 60px;
+            text-align: center;
+            background-color: white;
+            font-weight: 700;
+        }
+.box:hover{
+	font-size: 0px;
+}
+.box:hover:after{
+	content: attr(data-hover);
+	color: #c03827;
+            font-size: 60px;
+}
+.box3:hover{
+	font-size: 0px;
+}
+.box3:hover:after{
+	content: attr(data-hover);
+	color: #c03827;
+            font-size: 60px;
+}
+a{text-decoration: none;}
