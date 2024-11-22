@@ -1,0 +1,52 @@
+@font-face {
+	font-family: 'akzidenzgrotesk';
+	src: url('akzidenz-grotesk-black.woff') format('woff'),
+
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+
+.class1 {
+	position: sticky;
+	top: 0;
+	font-size: 100px;
+	font-family: akzidenzgrotesk;
+	float: middle;
+	background-color: white;
+	
+
+}
+span{
+	color: #c03827;
+
+}
+#interpolantics {
+	text-wrap: left;
+	height: 85px;}
+#class2{font-size: 35px;
+	font-family: akzidenzgrotesk;
+	float: middle;}
+span2{color: #c03827;}
+span3{font-size: 25px;}
+#class2{background-color: black;
+top: 100%;
+}
+body{background-color: black;
+margin: 0;
+width: 100%;}
+#versus{max-height: 1000px;
+display: inline-block;}
+#overlay{display: inline-block;
+width: 33%;}
+#zebra{float: right;
+height: 75px;
+bottom: 0px;
+right: 0px;
+	position: fixed;
+	z-index: 999;
+	}
+#what{font-size: 25px;
+	font-family: akzidenzgrotesk;
+	color: #00a98d;}
