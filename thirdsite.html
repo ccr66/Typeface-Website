@@ -6,45 +6,64 @@
 	<link rel="stylesheet" type="text/css" href="tertiarystyle.css">
 	<title></title>
 </head>
-<body>
+<body id="body">
+
 <div id="widely">
 	Widely used across many different areas of design.
 </div>
 <div id="covers">
 	Album Covers
 </div>
-<div class="albums">
-<img class="albums" src="venetian.png">
-<img class="albums" src="hum.png">
-<img class="albums" src="TOTBL.png">
-<img class="albums" src="antics.png">
+
+<div class="image-container">
+<img  src="venetian.png">
+<img  src="hum.png">
+<img  src="TOTBL.png">
+<img  src="antics.png">
 </div>
 
 <div id="industrial">
 	Industrial Design
-	<div class="compile">
-		<img id="signage" src="compile.png">
+	<div class="image-container">
+		<img src="pedal.png">
+		<img src="subway.png">
+		<img src="sign.png">
 	</div>
 </div>
 
 <div id="print">
 	Print and Other Media
 </div>
-<div class="media" >
-<img class="media" src="escapefromnewyork.jpg">
- <img class="media" src="clifford.png">
- <img class="media" src="beer.png"></div>
+<div class="image-container" >
+<img src="escapefromnewyork.png">
+ <img src="clifford.png">
+ <img src="beer.png"></div>
+
+
 
 <div id="footer">
-	<img id="zebra" src="zebra.png">
+	
 	<span><div id="title">AKZIDENZ GROTESK</div><span>
 
 
 </div>
 <div id="footer2">
-
+<img id="zebra" src="zebra.png">
 
 </div>
+	<script>
+		
 
+const letter = document.getElementById('zebra'); 
+
+window.addEventListener('scroll', function() {
+
+const scrollPos = window.scrollY;
+
+
+const leftPosition = scrollPos; 
+letter.style.left = `${leftPosition}px`;
+});
+	</script>
 </body>
 </html>
